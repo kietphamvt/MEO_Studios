@@ -28,6 +28,7 @@ header nav h1 {
 
 li {
     list-style: none;
+    color: white; 
 }
 
 a {
@@ -43,6 +44,15 @@ img {
 body {
     background-image: var(--default-gradient);
     font-family: 'Raleway'; 
+}
+
+button {
+    float: right; 
+    margin-right: 71px; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    width: 121px; 
+    height: 44px; 
 }
 
 .main {
