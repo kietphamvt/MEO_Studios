@@ -1,0 +1,29 @@
+.navBar { 
+    display: flex; 
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-size: 20px; 
+    background-color: #CFC89A;
+    height: 60px;
+    .linksContainer {
+        list-style-type: none;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        gap: 4rem; 
+
+        .registerButton {
+            background-color: black;
+            color: #CFC89A;
+            border-radius: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 40px;
+            padding-right: 40px; 
+        }
+
+        .musicalNote {
+            font-size: 40px;
+        }
+    }
+}

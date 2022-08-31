@@ -1,0 +1,25 @@
+.footerStyling {
+    background-color: #312938;
+    border: solid; 
+
+    .headerStyling {
+        color: #6B4D35;
+    }
+
+    .headerRow {
+        width: 60%;  
+    }
+
+    .normalRow {
+        width: 20%; 
+    }
+
+    .normalStyling {
+        color: #CFC89A;
+        font-family: iCielBC OldStyle;
+        .list {
+            list-style-type: none;
+            text-align: center;
+        }
+    }
+}
