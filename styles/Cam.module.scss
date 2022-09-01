@@ -1,0 +1,43 @@
+.gridContainer {
+    padding-left: 20px;
+    border-left: solid black;
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    column-gap: 20px;
+    row-gap: 20px;
+    .firstItem {
+        grid-row-start: 1; 
+        grid-row-end: 3; 
+        img {
+            width: 300px; 
+        }
+        transform: translateY(10%);
+    }
+    .pictureItem {
+        img {
+            width: 400px; 
+        }
+    }
+
+    .textItem {
+        font-family: iCielBC OldStyle;
+        .title {
+            font-size: 20px; 
+        }
+    }
+}
+
+.seeMoreButton {
+    background: linear-gradient(180deg, #6B4D35 0%, rgba(107, 77, 53, 0) 155.36%);
+    border-radius: 80px;   
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px; 
+    margin-top: 30px; 
+    margin-left: 520px;
+    margin-right: 520px; 
+    height: 60px;  
+    text-align: center;
+    color: #CFC89A; 
+}
