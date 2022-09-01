@@ -1,0 +1,29 @@
+.title {
+    font-size: 30px; 
+    text-align: center;
+    padding-top: 40px; 
+}
+
+.gridContainer {
+    padding-left: 20px; 
+    font-family: iCielBC OldStyle; 
+    color: #312938; 
+    margin-top: 20px; 
+    display: grid; 
+    grid-template-columns: auto auto auto;
+
+    .item3 {
+        grid-row-start: 1; 
+        grid-row-end: 3; 
+        grid-column-start: 3; 
+    }
+
+    .item7 {
+        padding: 40px; 
+    }
+
+    .text {
+        writing-mode: vertical-lr;
+        transform: scale(-1);
+    }
+}
