@@ -1,15 +1,13 @@
 import '../styles/globals.scss';
-import NavigationBar from '../components/NavigationBar';
-import BigPicture from '../components/BigPicture';
-import Footer from '../components/Footer';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
+
 
 function MyApp({ Component, pageProps }) {
   return ( 
   <>
-    <NavigationBar />
-    <BigPicture />
     <Component {...pageProps} />
-    <Footer />
   </>);
 }
 

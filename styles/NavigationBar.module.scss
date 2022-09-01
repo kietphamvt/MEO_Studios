@@ -12,18 +12,18 @@
         align-items: center;
         gap: 4rem; 
 
-        .registerButton {
-            background-color: black;
-            color: #CFC89A;
-            border-radius: 80px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 40px;
-            padding-right: 40px; 
-        }
-
         .musicalNote {
             font-size: 40px;
         }
     }
+}
+
+.registerButton {
+    background-color: black;
+    color: #CFC89A;
+    border-radius: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px; 
 }
