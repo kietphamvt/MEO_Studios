@@ -1,5 +1,9 @@
 import footerStyles from '../styles/Footer.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from  '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from  '@fortawesome/free-brands-svg-icons';
+import {faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (<div><table className={footerStyles.footerStyling}>
@@ -17,10 +21,10 @@ const Footer = () => {
             </td>
             <td className={footerStyles.contactList}>
                 <ul className={footerStyles.list}>
-                    <li><FontAwesomeIcon icon="fa-brands fa-facebook-f" />TCSSPTER</li>
-                    <li>TCSSPTER</li>
-                    <li>TCSSPTER</li>
-                    <li>0314200622</li>
+                    <li><FontAwesomeIcon icon={faFacebook} /> TCSSPTER</li>
+                    <li><FontAwesomeIcon icon={faInstagram} /> TCSSPTER</li>
+                    <li><FontAwesomeIcon icon={faYoutube} /> TCSSPTER</li>
+                    <li><FontAwesomeIcon icon={faPhoneAlt} /> 0314200622</li>
                 </ul>
             </td>
             <td>

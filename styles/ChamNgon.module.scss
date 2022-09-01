@@ -1,0 +1,36 @@
+.gridContainer {
+    display: grid; 
+    grid-template-columns: auto auto;
+    .miniGridContainer {
+        display:grid; 
+        grid-template-columns: auto auto;
+        border: solid black;
+        border-radius: 100px; 
+        background-color: #6B4D35;
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+        margin-left: 20px; 
+        padding-right: 30px; 
+        font-family: iCielBC OldStyle;
+        font-size: 20px; 
+        width: 900px; 
+        color: #EEE7BA;
+        img {
+            width: 400px; 
+        }
+        div {
+            transform: translateY(30%); 
+        }
+    }
+}
+
+.title { 
+    font-family: iCielBC Cubano;
+    font-size: 80px; 
+    ul {
+        list-style-type: none;
+    }
+    li {
+         margin-bottom: 40px; 
+    }
+}
